@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="container-fluid">
+    <header>
+        <h1>ADD TWO NUMBERS</h1>
+    </header>
+
+    <label>number 1</label>
+    <input VALUE type="text" name="number1" id="number1" placeholder="enter single digit number"> 
+    <label>number 2</label>
+    <input type="text" name="number2" id="number2" placeholder="enter single digit number">
+    <button type="button" class="btn btn-info" onclick="submit1()">submit</button>
+    <div class="screen" id="screen1">
+
+
+</div> 
+<script>
+$( document ).ready(function() {
+
+});
+function submit1(){
+    var a =  document.getElementById("number1").value;
+    var b =  document.getElementById("number2").value;
+    var c = parseInt(a) + parseInt(b); 
+    document.getElementById("screen1").innerHTML=c;
+  }
+</script>
+
+</body>
+</html>

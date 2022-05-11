@@ -1,5 +1,5 @@
 {
-  "name": "login",
+  "name": "n",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
+    "express": "^4.18.1",
     "mysql": "^2.18.1"
   },
   "description": ""

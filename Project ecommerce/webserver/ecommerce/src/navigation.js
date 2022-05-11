@@ -1,6 +1,6 @@
 import Dashboard from "./Dashboard";
 import LoginPage from "./LoginPage";
-import SignUpPage from "./SignUpPage";
+import Signup from "./Signup";
 import {
     BrowserRouter,
     Routes,
@@ -12,9 +12,9 @@ function Navigation() {
     <div>
       <BrowserRouter>
         <Routes>
+          <Route path="/Dashboard" element={<Dashboard />}></Route>
           <Route path="/" element={<LoginPage />}></Route>
-          <Route path="/signup" element={<SignUpPage />}></Route>
-          <Route path="/dashboard" element={<Dashboard />}></Route>
+          <Route path="/SignupPage" element={<Signup />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

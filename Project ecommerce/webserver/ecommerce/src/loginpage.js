@@ -1,5 +1,4 @@
-import { useState } from "react";
-import "./style/style.css";
+import { useState } from "react"; 
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
@@ -10,7 +9,7 @@ function LoginPage() {
   const navigate = useNavigate();
 
   function handleClick() {
-    var url = "http://localhost:5000/uservalidate";
+    var url = "http://localhost:3030/uservalidate";
     var request = { username: username, password: password };
     var header = {};
     axios
